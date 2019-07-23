@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.asus.pembendaharaanesc.InputActivity">
+
+    <EditText
+        android:id="@+id/etidMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="ID"/>
+    <EditText
+        android:id="@+id/etnamaMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Anggota"/>
+    <EditText
+        android:id="@+id/ettanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Uang Masuk"/>
+    <EditText
+        android:id="@+id/etbulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kas Bulan ...."/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etuang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Jumlah Uang Masuk"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSimpan"
+        android:text="Simpan" />
+
+
+</LinearLayout>
